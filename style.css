@@ -1,0 +1,703 @@
+.main{
+    width: auto;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+.left_main{
+    background:rgb(255, 255, 255);
+    height:635px;
+    width: 250px;
+    border-right:solid rgb(201, 201, 201);
+    position: sticky;
+    left: 0;
+    top: 0;
+    overflow-y:auto;
+}
+body{
+    margin: 0;
+}
+
+.wrapper{
+    position: relative;
+
+}
+.right-main{
+    width: 735px;
+    height: auto;
+    overflow-y: auto;
+}
+
+.font-logo{
+    width: 104px;
+    height: 35px;
+    mix-blend-mode: multiply;
+    padding-left: 19px;
+    padding-top: 32px;
+}
+.home{
+    width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+   
+}
+.home-logo{
+    width: 37px;
+    height: 32px;
+    padding-left: 10px;
+    
+    float: left;
+}
+.home-font{
+    color: rgb(0, 0, 0);
+    float: left;
+    padding-left: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    padding-top: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+
+.search-icon{
+    width: 24px;
+    height: 24px;
+    mix-blend-mode:multiply;
+    padding-left: 15px; 
+    padding-top: 2px;
+}
+.search{
+   
+     width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.search-text{
+    color: rgb(0, 0, 0);
+    padding-right: 115px;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 5px;
+}
+.explore-icon{
+   width: 22px;
+   padding-left: 13px; 
+   padding-top: 3px;
+}
+.explore{
+    width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+   
+}
+.explore-text{
+    color: rgb(0, 0, 0);
+    padding-right: 113px;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 5px;
+}
+.reels{
+    width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.reels-icon{
+    mix-blend-mode: multiply;
+    width:25px;
+    padding-left: 13px;
+    padding-top: 2px;
+}
+.reels-text{
+    color: rgb(0, 0, 0);
+    padding-right: 127px;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 6px;
+}
+.messages{
+    width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.message-icon{
+    mix-blend-mode: multiply;
+    width: 28px;
+    padding-left: 7px;
+}
+.messages-text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top:6px;
+    padding-right: 96px;
+   
+}
+.notifications{
+    width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.notifications-icon{
+    mix-blend-mode: multiply;
+    width: 33px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+}
+.notifications-text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 7px;
+    padding-right: 82px;
+}
+.create-icon{
+    mix-blend-mode: multiply;
+    width: 33px;
+    padding-left:9px;
+   
+}
+.create{
+    width: 220px;
+    height: 40px;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.create-text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 7px;
+    padding-right: 118px;
+}
+.profile{
+    width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.insta-dp{
+    width: 30px;
+    padding-left: 9px;
+   border-radius:100%;
+}
+.profile-text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 7px;
+    padding-right: 118px;
+}
+.search:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.explore:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.reels:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.messages:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.notifications:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.create:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.profile:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+
+
+.more{
+    width: 220px;
+    height: 40px;
+    padding-top: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.more-icon{
+    width: 28px;
+    height: 28px;
+    padding-left: 11px;
+mix-blend-mode: multiply;
+}
+.more-text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    padding-top: 7px;
+    padding-right: 128px;
+}
+.more:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.story-tab {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-top: 27px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.scontainer {
+    display: flex;
+    overflow-x: auto; 
+    white-space: nowrap;
+}
+
+.story-container {
+    display: flex ;
+    gap: 12px;
+}
+
+.story-content {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease-in ;
+}
+.story-container .story-content:hover{
+    transform: scale(1.1);
+}
+
+.img-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 5px;
+    border: 2px solid #dfe6e9;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.story-container .story-content .img-container {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 3px; 
+    background: linear-gradient(to top right, orange, deeppink), 
+                radial-gradient(circle at center, rgba(0, 0, 0, 0.15) 60%, transparent 60%), 
+                radial-gradient(circle at center, white 65%, transparent 65%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.story-container .story-content .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.text-container {
+    font-size: 12px;
+    color: #333;
+}
+
+
+.scontainer::-webkit-scrollbar {
+    display: none;
+}
+
+.scontainer {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+.post1{
+    width: 470px;
+    height: 744px;
+    background: rgb(255, 255, 255);
+    margin-left: 120px;
+}
+.top-bar{
+    width: auto;
+    height: 44px;
+    background: rgb(255, 255, 255);
+}
+.postdp{
+    width: 35px; cursor: pointer;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 1px;
+    margin-top: 1px;
+    float: left;
+    padding: 2px; 
+    background: linear-gradient(to top right, orange, deeppink), 
+                radial-gradient(circle at center, rgba(0, 0, 0, 0.15) 60%, transparent 60%), 
+                radial-gradient(circle at center, white 65%, transparent 65%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dptag{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight:bold;
+    font-size:13px;
+    padding-top: 10px;
+    float: left; cursor: pointer;
+    padding-left: 10px;
+}
+.time{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight:bold;
+    font-size:13px;
+    padding-top: 10px;
+    float: left;
+    padding-left: 30px; 
+    color:rgb(124, 121, 118) ;
+}
+.threedots{
+    padding-top: 11px; cursor: pointer;
+    padding-left: 441px;
+}
+.video1{
+    display:block;
+    align-content:center ;
+    margin: auto;
+}
+.bottom-tab {
+    background-color: rgb(255, 255, 255); 
+    width: 100%;
+    height: auto; 
+    color: white;
+   
+}
+.like{
+    width: 30px;
+    height: 26px; cursor: pointer;
+    mix-blend-mode: multiply;
+    padding-top: 10px;
+   
+}
+.comment{
+    width: 38px; cursor: pointer;
+    height: 27px; 
+    mix-blend-mode: multiply;
+}
+.share{
+    width: 30px;
+    height: 26px;
+    mix-blend-mode: multiply; cursor: pointer;
+}
+.save{
+    width: 30px; cursor: pointer;
+    height: 26px;
+    mix-blend-mode: multiply;
+    float: right;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+.like-text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 15px; cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.dptag1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px; cursor: pointer;
+    color: black;
+    text-decoration: none; font-weight: 500;
+}
+.view-comments{
+    color: rgb( 115, 115, 115);
+    text-decoration: none;
+    line-height: 20px; cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.add-comment{
+    color: rgb( 115, 115, 115);
+    text-decoration: none;
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.right-main::-webkit-scrollbar {
+    display: none;
+}
+
+.right-main {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+.right-edge{
+    width: 390px;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    float: left;
+}
+.account-dp{
+    width: 45px;
+    height: 45px;
+    margin-left: 1px;
+    margin-top: 0px; cursor: pointer;
+    border-radius: 100%;
+    float: left;
+    
+}
+.user-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12px; cursor: pointer;
+    padding-top: 14px;
+    padding-left: 62px;
+    
+}
+.profile-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px; cursor: pointer;
+    color: rgb(115, 115, 115);
+    line-height: 2.3;
+    padding-left: 16px;
+    float: left;
+}
+.switch{
+    color:rgb(0, 149, 246);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px; cursor: pointer;
+    padding-left: 233px;
+    padding-bottom: 30px;
+
+}
+.account-box{
+    width: 302px;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    margin-left: 34px; cursor: pointer;
+    margin-top: 29px;
+}
+.suggestion{
+    width: 302px;
+    height: 43px; cursor: pointer;
+    background: rgb(255, 255, 255);
+    margin-left: 34px;
+}
+.suggest{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:13px;
+    float: left; cursor: pointer;
+    color: rgb(115, 115, 115);
+    margin-top: 18px;
+    font-weight: 600;
+}
+.see-all{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:13px; cursor: pointer;
+    margin-left: 241px;
+    font-weight: 400;
+    padding-top: 18px;
+    
+}
+.suggestion-accounts1{
+    width: 300px;
+margin-left: 35px; cursor: pointer;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+   
+}
+.dp1{
+    width: 40px;
+    border-radius: 100%;
+   display: flex;
+overflow: hidden; cursor: pointer;
+align-items: flex-start;
+float: left;
+}
+.username1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 12px;
+    cursor: pointer;
+    padding-top: 6px;
+    margin-left: 56px;
+}
+.suggest-ion1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:13px;
+    float: left;
+    color: rgb(115, 115, 115);
+    margin-top: 5px;
+    cursor: pointer;
+    font-weight: 300;
+    margin-left: 16px;
+}
+.follow-button1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    color: rgb(0, 149, 246);
+    margin-left: 240px;
+    
+    
+}
+.suggestion-accounts2{
+    width: 300px;
+    margin-left: 35px;
+    height: 45px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    
+}
+.dp2{
+    width: 40px;
+    cursor: pointer;
+    border-radius: 100%;
+   display: flex;
+overflow: hidden;
+float: left;
+}
+.username2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    cursor: pointer;
+    font-size: 12px;
+    padding-top: 6px;
+    margin-left: 56px;
+} 
+.suggest-ion2{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:13px;
+    float: left; cursor: pointer;
+    color: rgb(115, 115, 115);
+    margin-top: 5px;
+    font-weight: 300;
+    margin-left: 16px;
+}
+.follow-button2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    color: rgb(0, 149, 246);
+    margin-left: 240px;}
+
+    .suggestion-accounts3{
+        width: 300px;
+        margin-left: 35px;
+        height: 45px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 10px;
+        cursor: pointer;
+        
+    }
+    .dp3{
+        width: 40px;
+        cursor: pointer;
+        border-radius: 100%;
+       display: flex;
+    overflow: hidden;
+    float: left;
+    }
+    .username3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:bold;
+        font-size: 12px;
+        cursor: pointer;
+        padding-top: 6px;
+        margin-left: 56px;
+    } 
+    .suggest-ion3{
+        font-family: Helvetica, Arial, sans-serif;
+        font-size:13px;
+        float: left;
+        color: rgb(115, 115, 115);
+        margin-top: 5px;
+        font-weight: 300;
+        cursor: pointer;
+        margin-left: 16px;
+    }
+    .follow-button3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        cursor: pointer;
+        color: rgb(0, 149, 246);
+        margin-left: 240px;
+    }
+    .about{
+        font-size: 12px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #6d6666;
+        padding-left: 40px;
+        padding-top: 35px;
+        cursor: pointer;
+    }
